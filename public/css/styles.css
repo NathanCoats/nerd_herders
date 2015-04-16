@@ -1,0 +1,271 @@
+body header
+{
+	height: 77px;
+}
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+                url('http://i.stack.imgur.com/FhHRx.gif')
+                50% 50%
+                no-repeat;
+}
+body.loading {
+    overflow: hidden;
+}
+body.loading .modal {
+    display: block;
+}
+.is_new
+{
+	background:darkgray;
+}
+.is_new a
+{
+	color:darkgreen;
+}
+.dynatable-search
+{
+	width:200px;
+}
+
+.modal-footer, .modal-header
+{
+	background:#386b43;
+	color:white
+}
+.modal-dialog
+{
+	width: 95%;
+}
+#embed
+{
+	width:100%;
+}
+
+.remove:hover, .remove
+{
+	cursor: pointer;
+	color:red;
+	text-decoration: none;
+}
+.take:hover, .take
+{
+	cursor: pointer;
+	color:purple;
+	text-decoration: none;
+}
+.download:hover, .download
+{
+	color:blue;
+	cursor: pointer;
+	text-decoration: none;
+}
+.view:hover,.view
+{
+	color:green;
+	cursor: pointer;
+	text-decoration: none;
+}
+.icons
+{
+	margin: 5px;
+}
+
+
+
+#delete
+{
+	width:100px;
+}
+.select2-container, .select2-container-multi, .select2-dropdown-open
+{
+	width:100%;
+}
+
+.dynatable-record-count,.dynatable-per-page
+{
+  margin:10px;
+  float:left;
+}
+.dynatable-pagination-links
+{
+  margin:10px;
+}
+button
+{
+  margin:10px;
+}
+
+.col-lg-6
+{
+  float:none;
+  margin:15px auto;
+}
+.col-lg-8
+{
+  float:none;
+  margin:15px auto;
+}
+.table
+{
+  margin:auto;
+  text-align: center;
+}
+.table thead
+{
+  background:#386b43;
+  color:white;
+}
+th
+{
+  text-align: center;
+}
+
+
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+	position: relative;
+}
+html, body, #pad-wrapper
+{
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+.others
+{
+  width:150px;
+}
+#nav-right
+{
+	width: 15%;
+	text-align: center;
+}
+#account_dropdown
+{
+  width:100%;
+  float:right;
+}
+#nav-left
+{
+	width: 84%;
+	float:left;
+	text-align: center;
+	margin:auto;
+	height:100%;
+}
+.navbar-inner
+{
+	line-height: 30px;
+}
+.navbar-nav li a
+{
+	color: white;
+}
+.nav>li>a
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 77px;
+}
+.headerLi, .nav>li>a
+{
+  height: 100%;
+}
+.headerLi:hover
+{
+  cursor:pointer;
+}
+.navbar-inverse
+{
+  position:relative;
+  margin-bottom: 40px;
+  background: -webkit-gradient(radial, 100% 40%, 0, 100% 40%, 243, color-stop(1.00, #4c6c4b), color-stop(0.00, #0c2211));
+  background: -webkit-radial-gradient(100% 40%, circle, #0c2211, #4c6c4b);
+  background: -moz-radial-gradient(100% 40%, circle, #0c2211, #4c6c4b);
+  background: -o-radial-gradient(100% 40%, circle, #0c2211, #4c6c4b);
+}
+.dropdown-menu,.navbar-inverse .navbar-nav .open a,.navbar-inverse .navbar-nav .open a, .navbar-inverse .navbar-nav .open a:hover, .navbar-inverse .navbar-nav .open a:focus, .headerLi:hover
+{
+	background: #0c2211;
+}
+#home
+{
+  margin: 0;
+  padding:0;
+}
+.navbar-inverse .navbar-nav li a
+{
+	color:white;
+}
+.navbar-collapse.in
+{
+	overflow: inherit;
+}
+#msg
+{
+	margin-top: -20px;
+}
+.navbar-collapse
+{
+	padding-left: 2px;
+}
+    @media(max-width:480px){
+
+    }
+    @media(max-width:769px){
+      .navbar-collapse, .dropdown-menu li a, #account ul li a
+    	{
+    		background: #265630;
+    		z-index:1;
+    	}
+    	.navbar-collapse
+    	{
+    		padding:0;
+    	}
+    	#nav-right li, #nav-left li
+    	{
+    		width: 100%;
+    	}
+    	#nav-right li  a,#nav-left  li  a
+    	{
+    		color:white;
+    	}
+    	#nav-right li a:hover, #nav-left li a:hover
+    	{
+    		background: #0c2211;
+    	}
+    	#nav-left, #nav-right
+    	{
+    		width: 100%;
+    	}
+    	#nav-left
+    	{
+    		height:auto;
+    	}
+    	#nav-left li.headerLi.open, #nav-right li ul,#test, #nav-left li a
+    	{
+    		background: #265630;
+    	}
+    	#nav-left li.headerLi.open ul  li a, #nav-right li ul li a
+    	{
+    		text-align: center;
+    		width: 100%;
+    	}
+    	#nav-right{
+    		margin:auto;
+	}
+
+  }
+   @media(max-width:960px){
+
+    }
+    @media (min-width: 1200px){
+
+    }
